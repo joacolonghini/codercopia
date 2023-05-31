@@ -6,7 +6,7 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 182px);
   grid-template-areas: "img1 img2 img3 img3" "img1 img4 img5 img6" "img7 img4 img8 img8";
-  padding: 1px;
+  padding: 2px;
   border-radius: 1px;
 }
 
@@ -63,6 +63,10 @@
     grid-template-areas: "img1 img2" "img3 img4" "img5 img6" "img7 img8" "img7 img8" "img7 img8";
   }
 }
+.imagen1 {
+  width: 50%;
+}
+
 .imagen9 {
   position: absolute;
   width: 45%;
@@ -227,10 +231,6 @@
   .card-container1 {
     flex-direction: column;
   }
-  .card1 {
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
 }
 @media (max-width: 800px) {
   .headertragos {
@@ -241,10 +241,6 @@
 @media (max-width: 800px) {
   .card-container2 {
     flex-direction: column;
-  }
-  .card2 {
-    margin-top: 5px;
-    margin-bottom: 5px;
   }
 }
 .bodytragos {

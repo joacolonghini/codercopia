@@ -1,5 +1,4 @@
 
-
 .contenedor{
     width: auto;
     height: auto;
@@ -10,7 +9,7 @@
     "img1 img2 img3 img3" 
     "img1 img4 img5 img6"
     "img7 img4 img8 img8";
-    padding: 1px;
+    padding:2px;
     border-radius: 1px;
 }
 
@@ -71,6 +70,9 @@
 }
 }
 
+.imagen1{
+    width: 50%;
+}
 
 
 .imagen9 {
@@ -241,10 +243,6 @@
     .card-container1 {
     flex-direction: column;
     }
-    .card1 {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    }
 }
 
 @media (max-width: 800px) {
@@ -257,11 +255,10 @@
     .card-container2 {
     flex-direction: column;
     }
-    .card2 {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    }
+
 }
+
+
 
 
 .bodytragos {
